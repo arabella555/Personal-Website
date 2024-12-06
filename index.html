@@ -7,6 +7,19 @@
   body {
      background: linear-gradient(to right, #FFFFFF 0%, #ADBCC3 100%);
    }
+    
+  .content {
+      min-height: 50vh;
+      background-color: #000000; 
+      color: white; 
+      padding: 60px;
+      margin-top: 0px;
+      font-size: 20px;
+    }
+    
+    .content p{
+      line-height: 0.2;
+    }
    ul {
       list-style-type: none;
       margin: 0;
@@ -16,7 +29,7 @@
     }
 
     li {
-      float: right; /* Move items to the right */
+      float: right;
     }
 
     li a {
@@ -34,6 +47,13 @@
     .active {
       background-color: #ADBCC3;
     }
+    
+    .title {
+      padding: 60px;
+      margin-top: 100px; /* Moves the content down */
+    }
+    
+    
   </style>
 </head>
 <body>
@@ -42,5 +62,16 @@
     <li><a href="#mywork">My Work</a></li>
     <li><a href="#aboutme">About Me</a></li>
   </ul>
+  
+<div class="title">
+    <h2 style="font-size: 60px;"> Hello, I'm Arabella</h2>
+  </div>
+
+<div class="content">
+  <p style="font-size: 20px;"> A creative enthusiast with a deep passion for digital </p>
+  <p>design. Dedicated to creating engaging contect that </p>
+  <p> tells engaging stories</p>
+  </div>
+  
 </body>
 </html>
