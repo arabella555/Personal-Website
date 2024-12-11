@@ -2,42 +2,31 @@
 <html lang="en-US">
 <head> 
   <meta charset="utf-8">
-  <title>Arabella's Portfolio</title>
+  <title>Portfolio Homepage</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Instrument+Sans:wght@400;700&family=Nunito+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
    
   <style> 
-    
   body {
     margin: 0;
     background: black;
-    font-family: "Instrument Sans", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
+
    }
     
-   .content {
-      min-height: 50vh;
-      background: linear-gradient(to top, #FFFFFF 0%, #ADBCC3 100%); 
-      color: black; 
-      padding: 60px;
-      margin-top: 0px;
-      font-size: 40px;
-      font-family: "Nunito Sans";
-    }
-    
-    .content p{
-      line-height: 1.1;
-      font-family: "Nunito Sans", sans-serif;
-      font-size: 40px;
-    }
-    
-   ul {
+  /* NAV BAR */
+    ul {
       list-style-type: none;
       margin: 0;
       padding: 0;
       background: black;
-     font-family: "Nunito Sans";
+      top: 0;
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
     }
+
 
     li {
       float: right;
@@ -52,40 +41,54 @@
     }
 
     li a:hover:not(.active) {
-      background-color: #ADBCC3;
+      color: #ADBCC3;
     }
 
     .active {
       background-color: #ADBCC3;
+    }
+  
+  /* HOMEPAGE TITLE */
+    
+   .content {
+      min-height: 50vh;
+      background: linear-gradient(to top, #FFFFFF 0%, #ADBCC3 100%); 
+      color: black; 
+      padding: 60px;
+      margin-top: 0px;
+     
     }
     
     .title {
       padding: 60px;
       margin-top: 100px; /* Moves the content down */
       color: white;
+      font-family: "Instrument Sans", sans-serif;
     }
     
-     h2 {
-      font-size: 110px;  /* Title font-size */
+    .content p{
+      line-height: 1.1;
+      font-size: 40px;
+      font-family: "Instrument Sans",  sans-serif;
     }
     
   </style>
 </head>
+  
 <body>
   <ul>
-    <li><a class="active" href="#contact">contact</a></li>
-    <li><a href="#mywork">my work</a></li>
+    <li><a href="home">home</a></li>
     <li><a href="#aboutme">about</a></li>
+    <li><a href="#mywork">my work</a></li>
+    <li><a href="#contact">contact</a></li>
   </ul>
-  
-<img src="ah logo.png" alt="Personal logo" width="100" height="100">
   
 <div class="title">
     <h2 style="font-size: 110px;"> Hello, I'm Arabella</h2>
   </div>
 
 <div class="content">
-  <p style="font-size: 40px;"> a creative enthusiast with a deep passion for digital <br>
+  <p style="font-size: 40px;"> A creative enthusiast with a deep passion for digital <br>
   design. Dedicated to creating engaging contect that <br> tells engaging stories.</p>
   </div>
 </body>
